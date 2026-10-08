@@ -5,6 +5,7 @@
     "dev": "next dev",
     "prebuild": "node scripts/gen-htaccess.mjs",
     "build": "next build",
+    "start": "next start",
     "build:preview": "NEXT_PUBLIC_SHOW_PLACEHOLDERS=1 next build",
     "typecheck": "tsc --noEmit"
   },
